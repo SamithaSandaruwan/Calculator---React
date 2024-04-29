@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lilita One", sans-serif;
+}
+
+.screen{
+  height: 4rem;
+  margin-bottom: 4rem;
+}
+
+
+.wrapper{
+  background: #f6f8f9;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 19px 20px 56px 15px rgba(0,0,0,0.1);
+
+}
+
+.buttonBox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: .5rem;
+}
+
+.button{
+  background: #d6faf1;
+  font-family: "Lilita One", sans-serif;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #242424;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.button:hover{
+  border: 2px ridge #242424  ;
+}
+
+.equals{
+  background:#32de84 ;
+  grid-column: 3/5;
+}
+
+.opt{
+  background: #FBCEB1;
+  
+}
